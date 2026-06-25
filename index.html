@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CorvalanTech | iPhone Apps by Luis Corvalan</title>
+  <meta name="description" content="CorvalanTech builds simple, focused iPhone apps including CueTrack, Phopan, and DaySnap." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CorvalanTech home">
+      <span class="brand-mark">◇</span>
+      <span>CorvalanTech</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#apps">Apps</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent iOS development</p>
+        <h1>Focused iPhone apps for real daily use.</h1>
+        <p class="lead">CorvalanTech builds clean, practical iPhone apps for players, field work, and personal memories.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#apps">View Apps</a>
+          <a class="button ghost" href="#contact">Contact Luis</a>
+        </div>
+      </div>
+      <div class="hero-showcase" aria-label="Featured CorvalanTech apps">
+        <img class="hero-img img-one" src="assets/cuetrack.jpg" alt="CueTrack app screen on iPhone" />
+        <img class="hero-img img-two" src="assets/phopan.jpg" alt="Phopan app screen on iPhone" />
+        <img class="hero-img img-three" src="assets/daysnap.png" alt="DaySnap app screen on iPhone" />
+      </div>
+    </section>
+
+    <section id="apps" class="section apps-section">
+      <div class="section-heading">
+        <p class="eyebrow">The apps</p>
+        <h2>Three apps. Three clear jobs.</h2>
+        <p>Each app is designed to do one thing well, without clutter or unnecessary accounts.</p>
+      </div>
+
+      <article class="app-card cue-card">
+        <div class="app-media">
+          <img src="assets/cuetrack.jpg" alt="CueTrack app screenshot" />
+        </div>
+        <div class="app-content">
+          <span class="pill">Billiards tracking</span>
+          <h3>CueTrack</h3>
+          <p>Track 8-ball matches, results, innings, balls made, and performance trends. Built for players who want better numbers without spreadsheet pain.</p>
+          <ul>
+            <li>Match history</li>
+            <li>Performance stats</li>
+            <li>Simple rack-by-rack tracking</li>
+          </ul>
+          <a class="button primary" href="https://apps.apple.com/us/app/cuetrack/id6751761037" target="_blank" rel="noopener">Download CueTrack</a>
+        </div>
+      </article>
+
+      <article class="app-card phopan-card reverse">
+        <div class="app-media">
+          <img src="assets/phopan.jpg" alt="Phopan app screenshot" />
+        </div>
+        <div class="app-content">
+          <span class="pill">Field documentation</span>
+          <h3>Phopan</h3>
+          <p>Capture and organize panel photos with clarity. Built for electricians and inspectors who need searchable, structured field documentation.</p>
+          <ul>
+            <li>Organized panel photos</li>
+            <li>Label completed panels</li>
+            <li>Search field records fast</li>
+          </ul>
+          <a class="button primary" href="https://apps.apple.com/us/app/phopan/id6670329857" target="_blank" rel="noopener">Download Phopan</a>
+        </div>
+      </article>
+
+      <article class="app-card daysnap-card">
+        <div class="app-media">
+          <img src="assets/daysnap.png" alt="DaySnap app screenshot" />
+        </div>
+        <div class="app-content">
+          <span class="pill">Coming soon</span>
+          <h3>DaySnap</h3>
+          <p>Record one moment every day and watch your story grow. DaySnap helps turn small daily clips into a personal timeline.</p>
+          <ul>
+            <li>Daily video moments</li>
+            <li>Personal timeline</li>
+            <li>Simple memory capture</li>
+          </ul>
+          <span class="button disabled" aria-disabled="true">Coming Soon</span>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Built by Luis Corvalan.</h2>
+      </div>
+      <p>CorvalanTech is an independent app studio focused on practical iPhone apps. The goal is simple: useful software, clean design, and fewer things getting in the way.</p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-copy">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a question or app idea?</h2>
+        <p>Send a message directly from this page. No email app gymnastics required once the form endpoint is connected.</p>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/mpqgpylj" method="POST">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" autocomplete="name" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" placeholder="Type your message here" required></textarea>
+        </label>
+        <button class="button primary" type="submit">Send Message</button>
+        <p class="form-note" id="formNote">Your message will be sent securely through the contact form.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand small"><span class="brand-mark">◇</span><span>CorvalanTech</span></div>
+    <div class="footer-links">
+      <a href="privacy-cuetrack.html">CueTrack Privacy</a>
+      <a href="privacy-phopan.html">Phopan Privacy</a>
+      <a href="privacy-daysnap.html">DaySnap Privacy</a>
+    </div>
+    <p>© 2026 CorvalanTech. Built for iPhone users who like things that work.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
