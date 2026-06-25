@@ -1,26 +1,33 @@
-# CorvalanTech Website
+CorvalanTech
 
-Static GitHub Pages website for CorvalanTech apps: CueTrack, Phopan, and DaySnap.
+CorvalanTech is the app studio of Luis Corvalan, focused on creating clean, practical, and easy-to-use iPhone apps.
 
-## Preview before GitHub
+The goal is simple: build apps that solve real problems without making the user fight the software. Good apps should feel clear, useful, and lightweight.
 
-Open `index.html` in your browser.
+Apps
 
-## Contact form
+CueTrack
 
-The form design is included. To make it send messages without opening an email app:
+CueTrack helps pool players track their 8-ball matches, results, balls made, misses, safeties, fouls, scratches, and performance over time.
 
-1. Create a free Formspree account at formspree.io
-2. Create a new form
-3. Copy the form ID
-4. In `index.html`, replace `REPLACE_ME` in this line:
+App Store: https://apps.apple.com/us/app/cuetrack/id6751761037
 
-```html
-<form action="https://formspree.io/f/REPLACE_ME" method="POST">
-```
+Phopan
 
-with your real Formspree ID.
+Phopan is designed for organizing and working with photos in a simple and practical way.
 
-## Upload to GitHub
+App Store: https://apps.apple.com/us/app/phopan/id6670329857
 
-Upload all files and folders in this package, not the ZIP itself.
+DaySnap
+
+DaySnap is a coming-soon app designed to help users capture and remember daily moments.
+
+Website
+
+This website is the official home for CorvalanTech apps. It includes app information, App Store links, support information, and privacy policy pages required for App Store listings.
+
+Developer
+
+Luis Corvalan builds iPhone apps with a focus on practical design, simple workflows, and clear user experience.
+
+CorvalanTech apps are made to be useful first. Fancy is optional. Useful is not.
